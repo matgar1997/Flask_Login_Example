@@ -14,8 +14,11 @@ you can leave and re-enter the shell with
 
 "pipenv install -r ./requirements.txt"
 
+SKIP I dont think its necessary anymore
+--start skip--
 "export FLASK_APP=project"
 "export FLASK_DEBUG=1"
+--end skip--
 
 "flask run" -confirm everything runs up to this point (sanity check)
 
