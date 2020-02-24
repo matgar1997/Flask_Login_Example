@@ -4,7 +4,7 @@ check if pipenv is installed "pipenv --version"
 
 if not "pip3 install pipenv"
 
-Typical REST projects have an outer directory, then a "project" directory within that
+Typical flask projects have an outer directory, then a "project" directory within that
 Inside the outer directory run "pipenv shell"
 
 FROM HERE ON OUT EVERYTHING IS DONE INSIDR THE PIPENV ENVIROMENT
