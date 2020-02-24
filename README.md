@@ -29,3 +29,9 @@ open python interpretter
 Optional step, if using VS Code
 install SQLite by alexcvzz from market place
 This will let you have a graphical representation of the database
+
+At this point ./project/db.sqlite3 should exist, right click on it too see
+"Open Database" if installed option step
+
+On the bottom left SQLite Explore should have 1 database an 1 user table
+Press the arrow/play button next to user to view current users (should be empty since no user was created yet)
