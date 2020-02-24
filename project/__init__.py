@@ -28,4 +28,7 @@ def create_app():
     from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
+    from .rest_api_example import rest_api_example as rest_api_example_blueprint
+    app.register_blueprint(rest_api_example_blueprint)
+
     return app
